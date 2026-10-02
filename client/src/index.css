@@ -1,0 +1,44 @@
+:root {
+  --bg: #f3eee6;
+  --bg-deep: #dbe5df;
+  --ink: #24332e;
+  --muted: #607069;
+  --line: #c8d0c9;
+  --surface: #fbfaf6;
+  --accent: #b65335;
+  --accent-soft: #f3ddd2;
+  --sale: #b65335;
+  --rent: #31738a;
+  --error: #a33e3e;
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-body);
+  background:
+    linear-gradient(115deg, rgba(243, 238, 230, 0.97), rgba(219, 229, 223, 0.88)),
+    url("https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=2200&q=85") center / cover fixed;
+}
+
+button {
+  font: inherit;
+}
+
+button,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
